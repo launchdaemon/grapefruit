@@ -46,6 +46,6 @@ async function main() {
   }
 }
 
-process.env.NDOE_ENV = "development";
+process.env.NODE_ENV = "development";
 
 main();
