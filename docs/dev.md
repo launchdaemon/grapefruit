@@ -12,7 +12,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/chichou/grapefruit.git
+git clone --recurse-submodules https://github.com/chichou/grapefruit.git
 cd grapefruit
 
 # Build r2hermes.wasm first (requires emcc)
